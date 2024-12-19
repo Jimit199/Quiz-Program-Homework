@@ -1,0 +1,29 @@
+def quiz():
+    print("Welcome to my Quiz!")
+    score = 0
+    start = input("Type your Answer Hear:")
+    if start == "begin":
+        q1 = int(input("What is the Square Root of 64:"))
+        if q1 == 8:
+            print("Correct")
+            score = score + 1
+        else:
+            print("incorrect")
+        q2 = input("How many States are in the U.S.:")
+        if q2 == "50 States":
+            print("Correct")
+            score = score + 1
+        else:
+            print("Incorrect")
+        q3 = input("When was the last election before Donald Trump was elected:")
+        if q3 == "2020":
+            print("Correct")
+            score = score + 1
+        else:
+            print("Incorrect")
+        q4 = input("Who is leader of North Korea:")
+        if q4 == "Kim-Jong-Un":
+            print("Correct")
+            score = score + 1
+        else:
+quiz()
